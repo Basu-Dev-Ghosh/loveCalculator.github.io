@@ -1,0 +1,192 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html{
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  
+    font-size: 62.5%;
+}
+
+#fun
+{
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+video
+{
+    width: 530px;
+}
+h1
+    {
+        position: absolute;
+        top: 10rem;
+        left: 39.5rem;
+        font-size: 8rem;
+        margin: -19px;
+        color: white;
+    }
+.container
+{
+
+    max-width: 60rem;
+    background-color: black;
+    opacity: 1;
+    height: 30rem;
+    margin:auto;
+    margin-top: 25rem;
+}
+
+.row1
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+.row1 p{
+    font-size: 25px;
+}
+.yourname,.lovename
+{
+    width: 25rem;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    height: 3.9rem;
+    text-align: center;
+}
+.yourname:focus,.lovename:focus
+{
+    background-color: black;
+    border: none;
+    color:white
+}
+.row2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+.row2 button{
+    width: 14rem;
+    height: 4rem;
+    border: 1px solid transparent;
+    background-color: red;
+    color:white;
+    border-radius: 6px;
+    font-size: 24px;
+}
+.row2 button:hover{
+    background-color: white;
+    color: black;
+}
+.row3
+{
+    margin: 54px 50px;
+}
+.percentage
+{
+    height: 60px;
+    width: 50rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+#result
+{
+    font-weight: bolder;
+}
+
+
+
+@media screen and (max-width:600px) {
+    html
+    {
+
+        background-size: 142rem;
+    }
+    video
+{
+    width: 530px;
+}
+    h1
+    {
+        position: absolute;
+        top: 6rem;
+        left: 9rem;
+        font-size: 3rem;
+        margin: -19px;
+        color: white;
+    }
+    
+    .container
+    {
+        background-color: black;
+        height: 57rem;
+        width: 44rem;
+        margin-top: 110px;
+        margin-left: 4px;
+    }
+    .row1
+    {
+        display: block;
+    margin-left: 96px;
+    padding-top: 58px;
+    }
+    .row1 p
+    {    font-size: 42px;
+        margin-left: 89px;
+        margin-top: -34px;
+        margin-bottom: 11px;
+    }
+    .yourname,.lovename
+    {
+        width: 87%;
+    height: 62px;
+    margin-left: -28px;
+    margin-bottom: 43px;
+    font-size: 34px;
+    }
+    .row2{
+    margin-top: 0rem;
+    }
+    .percentage
+{
+    height: 99px;
+    width: 34rem;
+    text-align: center;
+    font-size: 40px;
+}
+  
+    
+}
+@media screen and (min-width:601px) and (max-width:1024px) {
+ html
+ {
+     
+     background-size: 100rem;
+     
+ }   
+ h1
+    {
+        position: absolute;
+    top: 10rem;
+    left: 13.5rem;
+    font-size: 5rem;
+    margin: -19px;
+    color: white;
+    }
+    
+}
